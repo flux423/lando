@@ -1,4 +1,4 @@
-name: composer-drupal8
+name: landod8
 recipe: drupal8
 config:
 
@@ -104,4 +104,3 @@ config:
       build:
         - "mkdir -p ~/.drush/site-aliases"
         - "ln -sf $LANDO_WEBROOT/sites/drush/$LANDO_NAME.aliases.drushrc.php ~/.drush/site-aliases/$LANDO_NAME.drushrc.php"
-
